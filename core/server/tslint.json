@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false
+    },
+    "rulesDirectory": [],
+    "include" : ["src/**/*"],
+    "exclude" : ["node_modules", "**/*.spec.ts"]
+}
